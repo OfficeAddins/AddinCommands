@@ -1,8 +1,8 @@
 # AddinCommands
 AddinCommands 1.3
 
-<Code>
-              <Group id="ExecuteButtonGroupId">
+<span>
+<Group id="ExecuteButtonGroupId">
                 <Label resid="ExecuteButton_Label"/>
                 <Icon>
                   <bt:Image size="16" resid="BET_16x16"/>
@@ -25,9 +25,9 @@ AddinCommands 1.3
                   </Action>
                 </Control>
 
-                <OfficeControl id="Paste" />
-              </Group>
-</Code>
+   <OfficeControl id="Paste" />
+</Group>
+</span>
 
 
 
