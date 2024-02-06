@@ -1,6 +1,9 @@
 # AddinCommands
 AddinCommands 1.3
 
+I have created a simple manifest file and tried to include a built-in command using the <OfficeControl> tag.
+learn.microsoft.com/en-us/office/dev/add-ins/design/built-in-button-integration 
+
 ```
 <Group id="ExecuteButtonGroupId">
    <Label resid="ExecuteButton_Label"/>
