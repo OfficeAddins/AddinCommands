@@ -1,8 +1,9 @@
 # AddinCommands
-AddinCommands 1.3
+I have created a simple manifest file and tried to include a built-in command using the 'OfficeControl' tag.
 
-I have created a simple manifest file and tried to include a built-in command using the <OfficeControl> tag.
-learn.microsoft.com/en-us/office/dev/add-ins/design/built-in-button-integration 
+The command is displayed in PowerPoint, but not in Excel or Word.
+
+<A href="https://learn.microsoft.com/en-us/office/dev/add-ins/design/built-in-button-integration">learn.microsoft.com/en-us/office/dev/add-ins/design/built-in-button-integration</a>
 
 ```
 <Group id="ExecuteButtonGroupId">
