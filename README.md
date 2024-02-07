@@ -61,7 +61,7 @@ Be able to display a built-in controls with a large size
 <OfficeControl id="Paste" size="large" />
 ```
 
-<H3>Nice To Have - on a menu"</H3>
+<H3>Nice To Have - on a menu</H3>
 Be able to include built-in controls on a menu
 
 ```
