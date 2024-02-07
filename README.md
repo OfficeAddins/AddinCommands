@@ -54,14 +54,16 @@ When the manifest is side loaded into Word, the Paste command is NOT displayed.
 <img src="word-addincommands.png">
 
 
-<H3>Nice To Have</H3>
-Would it be possible to add the following two features please:
-<LI>>Be able to display a built-in controls with a large size</LI
+<H3>Nice To Have - size="large"</H3>
+Be able to display a built-in controls with a large size
+
 ```
 <OfficeControl id="Paste" size="large" />
 ```
 
-<LI>Be able to include built-in controls on a menu</LI
+<H3>Nice To Have - on a menu"</H3>
+Be able to include built-in controls on a menu
+
 ```
 <Control xsi:type="Menu">
   <Label/>
