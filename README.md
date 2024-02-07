@@ -1,15 +1,16 @@
 # AddinCommands
-I have created a simple manifest file and tried to include a built-in command using the 'OfficeControl' tag.
+<B>I have created 3 simple manifest files and tried to include a built-in command using the 'OfficeControl' tag.
 
-The command is displayed in PowerPoint, but not in Excel or Word.
+The command is displayed in PowerPoint, but not in Excel or Word.</B>
+
 
 <A href="https://learn.microsoft.com/en-us/office/dev/add-ins/design/built-in-button-integration">learn.microsoft.com/en-us/office/dev/add-ins/design/built-in-button-integration</a>
 
-The documentation says that this is only supported in PowerPoint at the moment
+The documentation says that this is only supported in PowerPoint at the moment.
 
 <A href="https://learn.microsoft.com/en-us/javascript/api/manifest/group">learn.microsoft.com/en-us/javascript/api/manifest/group</a>
 
-<img src="powerpoint-docs-screenshot.png">
+<img width="700" src="powerpoint-docs-screenshot.png">
 
 ```
 <Group id="ExecuteButtonGroupId">
@@ -51,4 +52,26 @@ When the manifest is side loaded into Excel, the Paste command is NOT displayed.
 <H3>Word Desktop Application</H3>
 When the manifest is side loaded into Word, the Paste command is NOT displayed.
 <img src="word-addincommands.png">
+
+
+<H3>Nice To Have</H3>
+Would it be possible to add the following two features please:
+<LI>>Be able to display a built-in controls with a large size</LI
+```
+<OfficeControl id="Paste" size="large" />
+```
+
+<LI>Be able to include built-in controls on a menu</LI
+```
+<Control xsi:type="Menu">
+  <Label/>
+  <Icon/>
+  <Items>
+    <Item id="BUILTIN_ID">
+      <OfficeControl id="Paste" />
+    </Item>
+  </Items>
+```
+
+<H3>Desktop Office Version</H3>
 <img src="word-version.png">
