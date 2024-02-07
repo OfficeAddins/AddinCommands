@@ -5,6 +5,13 @@ The command is displayed in PowerPoint, but not in Excel or Word.
 
 <A href="https://learn.microsoft.com/en-us/office/dev/add-ins/design/built-in-button-integration">learn.microsoft.com/en-us/office/dev/add-ins/design/built-in-button-integration</a>
 
+The documentation says that this is only supported in PowerPoint at the moment
+[https://learn.microsoft.com/en-us/office/dev/add-ins/design/built-in-button-integration]
+
+
+
+
+
 ```
 <Group id="ExecuteButtonGroupId">
    <Label resid="ExecuteButton_Label"/>
